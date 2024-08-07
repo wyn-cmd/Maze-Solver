@@ -3,7 +3,7 @@ A practise exercise using Python for loops to solve a maze
 
 The maze is a grid with walls ('X'), open paths (' '), a start point ('S'), and an end point ('E').
 
-Your program must find a path from 'S' to 'E' using loops.
+The program finds a path from 'S' to 'E' using loops.
 
 ## Maze Representation
 Here's an example of a maze represented in maze.txt:
