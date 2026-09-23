@@ -57,15 +57,10 @@ def solve_maze(maze):
         print(''.join(row))
 
 
+# Loads a maze from a text file into a list of lists.
+# file_path: path to the text file containing the maze.
+# returns a list of lists representing the maze.
 def load_maze_from_file(file_path):
-  """Loads a maze from a text file into a list of lists.
-
-  Args:
-    file_path: The path to the text file containing the maze.
-
-  Returns:
-    A list of lists representing the maze.
-  """
 
   maze = []
   with open(file_path, 'r') as file:
