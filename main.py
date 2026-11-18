@@ -40,6 +40,8 @@ def solve_maze(maze):
 # file_path: path to the text file containing the maze.
 # returns a list of lists representing the maze.
 def load_maze_from_file(file_path):
+    if not file_path:
+        raise ValueError("File path cannot be empty")
     maze = []
     with open(file_path, 'r') as file:
         for line in file:
